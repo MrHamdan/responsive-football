@@ -1,0 +1,141 @@
+/* Google fonts import  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Common Styles And Utilities  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+img{
+    width: 100%;
+}
+
+
+/* Header  */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D25A0;
+}
+.header-text{
+    margin: 156px;
+}
+.header-text h1{
+    margin-bottom: 27px;
+}
+a.button{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    padding: 14px 17px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.header-image img{
+    width: 556.01px;
+    height: 438px;
+}
+
+
+
+/* Player */
+
+#players {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+.player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+}
+.players-item {
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+}
+
+
+/* Footer  */
+
+.footer.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+.footer-image img {
+    width: 483.87px;
+    height: 110px;
+}
+.footer-image {
+    text-align: center;
+}
+.social-icon i {
+    font-size: 32px;
+    padding: 1rem;
+    color: #969BAB;
+    transition: 2s;
+}
+.social-icon i:hover {
+    color: #2d25a0;
+    transition: 2s;
+}
+
+
+/* Responsive  */
+
+@media only screen and (max-width:688px) {
+    #header {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header-img {
+        width: 329px;
+        height: 259.17px;
+        margin-bottom: 100px;
+        left: 344px;
+        top: 374px;
+    }
+    .player {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-image img{
+        width: 200px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    #header {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header-img {
+        width: 329px;
+        height: 259.17px;
+        margin-bottom: 100px;
+        left: 344px;
+        top: 374px;
+    }
+    .player {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-image img{
+        width: 200px;
+        height: 50px;
+    }
+}
