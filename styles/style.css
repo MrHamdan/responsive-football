@@ -17,6 +17,17 @@ img{
     width: 100%;
 }
 
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D25A0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 36px;
+}
 
 /* Header  */
 #header{
@@ -73,7 +84,7 @@ a.button{
     grid-gap: 32px;
 }
 .highlights-grid{
-    width: 75%;
+    width: 60%;
     display: grid;
     align-items: center;
     margin-top: 165px;
