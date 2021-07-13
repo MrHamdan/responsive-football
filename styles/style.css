@@ -26,6 +26,7 @@ img{
 .nav-item{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 3% 0;
     background-color: #2D25A0;
 }
