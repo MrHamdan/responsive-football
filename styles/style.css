@@ -100,7 +100,7 @@ a.button{
 #store{
     text-align: center;
     margin: 3rem 0 0 0;
-    background: #f0f0f0;
+    background: #E7E7E8;
     padding: 4rem;
 }
 
@@ -113,6 +113,15 @@ a.button{
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
+}
+.store-grid img{
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+.store-grid img:hover{
+    transform: scale(1.4);
+    transition: 2s;
+    border-radius: 10px;
 }
 
 /* Highlights  */
@@ -264,7 +273,7 @@ a.button{
     }
     .store-grid{
         width: 100%;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .live-grid{
         width: 100%;
