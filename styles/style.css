@@ -29,6 +29,9 @@ img{
     padding: 3% 0;
     background-color: #2D25A0;
 }
+nav ul{
+    list-style: none;
+}
 .nav-item a{
     color: white;
     text-decoration: none;
