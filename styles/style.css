@@ -88,6 +88,10 @@ a.button{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 32px;
 }
+.player-info p{
+    color:
+    #6C6C6C;
+}
 .players-item {
     width: 330px;
     height: 474px;
@@ -151,6 +155,10 @@ a.button{
     justify-content: center;
     grid-gap: 32px;
 }
+.live-text h3{
+    font-size: 48px;
+    text-align: center;
+}
 .live-grid{
     width: 60%;
     display: grid;
@@ -160,6 +168,7 @@ a.button{
     margin-bottom: 165px;
 }
 .fa-satellite-dish{
+    size: 30px;
     color: red;
 }
 
