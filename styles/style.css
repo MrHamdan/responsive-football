@@ -13,17 +13,23 @@ h1{
     line-height: 80px;
     color: #FFFFFF;
 }
+h2 {
+    color: #18191F;
+    font-weight: bold;
+    font-size: 28px;
+}
 img{
     width: 100%;
 }
 
 /* Navbar */
-nav{
+.nav-item{
     display: flex;
     justify-content: space-around;
+    padding: 3% 0;
     background-color: #2D25A0;
 }
-nav a{
+.nav-item a{
     color: white;
     text-decoration: none;
     margin-right: 36px;
@@ -89,9 +95,30 @@ a.button{
     align-items: center;
     margin-top: 165px;
     grid-template-columns: repeat(2, 2fr);
+    margin-bottom: 165px;
 }
 .highlights-text p{
     margin-bottom: 27px;
+    color: #6C6C6C;
+}
+
+/* Live Section  */
+
+#live-section{
+    display: flex;
+    justify-content: center;
+    grid-gap: 32px;
+}
+.live-grid{
+    width: 60%;
+    display: grid;
+    align-items: center;
+    margin-top: 165px;
+    grid-template-columns: repeat(2, 2fr);
+    margin-bottom: 165px;
+}
+.fa-satellite-dish{
+    color: red;
 }
 
 
@@ -134,8 +161,32 @@ a.button{
         justify-content: center;
         flex-direction: column;
     }
+    #live-section{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .live-grid{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .live-text{
+        text-align: center;
+    }
+    .live-video{
+        text-align: center;
+    }
+    .live-video iframe{
+        width: 50%;
+    }
+   
     .highlights-grid{
         width: 100%;
+    }
+
+    .nav-item{
+        justify-content: center;
+        flex-direction: column;
+        grid-gap: 30px;
     }
     .header-img {
         width: 329px;
@@ -157,6 +208,41 @@ a.button{
         justify-content: center;
         flex-direction: column;
     }
+    #header {
+        justify-content: center;
+        flex-direction: column;
+    }
+    #highlights{
+        justify-content: center;
+        flex-direction: column;
+    }
+    #live-section{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .live-grid{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .live-text{
+        text-align: center;
+    }
+    .live-video{
+        text-align: center;
+    }
+    .live-video iframe{
+        width: 50%;
+    }
+   
+    .highlights-grid{
+        width: 100%;
+    }
+
+    .nav-item{
+        justify-content: center;
+        flex-direction: column;
+        grid-gap: 30px;
+    }
     .header-img {
         width: 329px;
         height: 259.17px;
@@ -164,6 +250,7 @@ a.button{
         left: 344px;
         top: 374px;
     }
+    
     .player {
         grid-template-columns: repeat(2, 1fr);
     }
