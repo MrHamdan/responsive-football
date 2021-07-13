@@ -87,8 +87,10 @@ a.button{
 }
 .social-icon i {
     font-size: 32px;
-    padding: 1rem;
+    background-color: #E7E7E8;
+    padding: 16px;
     color: #969BAB;
+    border-radius: 50%;
     transition: 2s;
 }
 .social-icon i:hover {
