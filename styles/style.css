@@ -73,10 +73,14 @@ a.button{
     grid-gap: 32px;
 }
 .highlights-grid{
+    width: 75%;
     display: grid;
     align-items: center;
     margin-top: 165px;
     grid-template-columns: repeat(2, 2fr);
+}
+.highlights-text p{
+    margin-bottom: 27px;
 }
 
 
@@ -118,6 +122,9 @@ a.button{
     #highlights{
         justify-content: center;
         flex-direction: column;
+    }
+    .highlights-grid{
+        width: 100%;
     }
     .header-img {
         width: 329px;
