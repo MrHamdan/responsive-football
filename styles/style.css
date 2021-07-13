@@ -89,6 +89,7 @@ a.button{
     font-size: 32px;
     background-color: #E7E7E8;
     padding: 16px;
+    margin: 14px;
     color: #969BAB;
     border-radius: 50%;
     transition: 2s;
@@ -117,8 +118,8 @@ a.button{
         grid-template-columns: repeat(1, 1fr);
     }
     .footer-image img{
-        width: 200px;
-        height: 50px;
+        width: 400px;
+        height: 110px;
     }
 }
 @media only screen and (min-width:688px) and (max-width:992px) {
@@ -137,7 +138,7 @@ a.button{
         grid-template-columns: repeat(2, 1fr);
     }
     .footer-image img{
-        width: 200px;
-        height: 50px;
+        width: 400px;
+        height: 110px;
     }
 }
